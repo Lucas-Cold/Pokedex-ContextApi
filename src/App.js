@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importe o componente Routes
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Favorites from './Favorites';
 import Pokdex from './Pokdex';
 import FavoritesProvider from './FavoritesContext';
