@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pokdex-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pokdex-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .pokemon-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .pokemon-button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .favorites-button {
+    margin-top: 20px;
+    cursor: pointer;
+  }
